@@ -33,18 +33,36 @@
             margin: 0;
             text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         }
-        p {
+        .links {
+            margin-top: 30px;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        a {
+            color: #4a90e2;
+            text-decoration: none;
             font-size: 1.2em;
-            margin: 10px 0 0 0;
-            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease, text-shadow 0.3s ease;
             text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        a:hover {
+            color: #357abd;
+            text-shadow: 0 0 15px rgba(74, 144, 226, 0.8);
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>hi</h1>
-        <p>i will start working on this website soon :)</p>
+        <div class="links">
+            <a href="https://discord.gg/T6uCawEVwg" target="_blank">Discord</a>
+            <a href="https://github.com/m3cha1" target="_blank">Github</a>
+            <a href="https://youtube.com/@m3cha1" target="_blank">YouTube</a>
+            <a href="https://www.roblox.com/users/7843710526/profile" target="_blank">Roblox</a>
+        </div>
     </div>
 </body>
 </html>
