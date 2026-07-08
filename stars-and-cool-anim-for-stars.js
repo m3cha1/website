@@ -4,7 +4,7 @@ class Star {
     this.y = Math.random() * height;
     this.vx = (Math.random() - 0.5) * 0.5;
     this.vy = (Math.random() - 0.5) * 0.5;
-    this.size = Math.random() * 1.5 + 1; // 1px - 2.5px
+    this.size = Math.random() * 2 + 2;
     this.opacity = 0.3 + Math.random() * 0.4;
   }
 
